@@ -15,7 +15,7 @@ It's working with trendyol.com, hepsiburada.com yet.
 
 ```
 async function ...() {
-  let product = getProductInfo(url);
+  let product = await getProductInfo(url);
   console.log(product);
 }
 ```
