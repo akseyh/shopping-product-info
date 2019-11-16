@@ -24,6 +24,20 @@ function divideForHepsiburada(dom) {
     return product;
 }
 
+function divideForGittigidiyor(dom) {
+        // have not brand name in gittigidiyor.
+        const query2 = dom.window.document.querySelectorAll('#sp-title')[0].innerHTML,
+        title = query2,
+        query3 = dom.window.document.querySelectorAll('#sp-price-lowPrice')[0].innerHTML.trim().length !== 0 ? dom.window.document.querySelectorAll('#sp-price-lowPrice')[0].innerHTML.trim() : dom.window.document.querySelectorAll('#sp-price-highPrice')[0].innerHTML.trim(),
+        price = query3,
+        query4 = dom.window.document.querySelectorAll('#big-photo')[0].src,
+        picture = query4;
+    const product = { 'title': title, 'picture': picture, 'price': price};
+    return product;
+}
+
+
+
 function getData(url) {
     const axios = require('axios');
     return new Promise(resolve => {
@@ -48,6 +62,9 @@ module.exports = async function getProductInfo(productUrl) {
             break;
         case 'https://www.hepsiburada.com':
             product = divideForHepsiburada(dom);
+            break;
+        case 'https://urun.gittigidiyor.com':
+            product = divideForGittigidiyor(dom);
             break;
         default:
             break;
