@@ -1,5 +1,7 @@
 # shopping-product-info
 
+[![npm version](https://badge.fury.io/js/shopping-product-info.svg)](https://badge.fury.io/js/shopping-product-info)
+
 ## Installing
 ```bash
 $ npm install shopping-product-info
@@ -11,7 +13,7 @@ const getProductInfo = require('shopping-product-info');
 ```
 
 ## Example
-It's working with trendyol.com, hepsiburada.com yet.
+It's working with trendyol.com, hepsiburada.com, gittigidiyor.com yet.
 
 ### ASYNC/AWAİT
 ```
