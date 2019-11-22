@@ -1,6 +1,6 @@
 {
   "name": "shopping-product-info",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "```bash\r $ npm install shopping-product-info\r ```",
   "main": "index.js",
   "scripts": {
