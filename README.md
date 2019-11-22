@@ -2,6 +2,13 @@
 
 [![npm version](https://badge.fury.io/js/shopping-product-info.svg)](https://badge.fury.io/js/shopping-product-info)
 
+## Supporting Sites
+<p float="left">
+  <a href="https://www.gittigidiyor.com" target="_blank"> <img src="img/gittigidiyor-logo.jpg" width="100"> <a/>
+  <a href="https://www.hepsiburada.com" target="_blank"> <img src="img/hepsiburada-logo.png" width="100"> <a/>
+  <a href="https://www.trendyol.com" target="_blank"> <img src="img/trendyol-logo.jpg" width="100"> <a/>
+</p>
+
 ## Installing
 ```bash
 $ npm install shopping-product-info
@@ -13,8 +20,6 @@ const getProductInfo = require('shopping-product-info');
 ```
 
 ## Example
-It's working with trendyol.com, hepsiburada.com, gittigidiyor.com yet.
-
 ### ASYNC/AWAİT
 ```
 async function ...() {
