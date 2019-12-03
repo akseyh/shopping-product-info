@@ -63,7 +63,7 @@ module.exports = async function getProductInfo(productUrl) {
         case 'https://www.hepsiburada.com':
             product = divideForHepsiburada(dom);
             break;
-        case 'https://urun.gittigidiyor.com':
+        case 'https://www.gittigidiyor.com':
             product = divideForGittigidiyor(dom);
             break;
         default:
